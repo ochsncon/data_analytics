@@ -1,0 +1,74 @@
+{
+    "_id": "winterthur",
+    "startUrl": [
+        "https://www.immoscout24.ch/de/wohnung/mieten/ort-winterthur?pn=[1-5]"
+    ],
+    "selectors": [
+        {
+            "elementLimit": 0,
+            "id": "winterthur",
+            "multiple": true,
+            "parentSelectors": [
+                "_root"
+            ],
+            "scroll": false,
+            "selector": "div.HgListingCard_info_7f6fd",
+            "type": "SelectorElement"
+        },
+        {
+            "id": "rooms_area_price_raw",
+            "multiple": false,
+            "multipleType": "singleColumn",
+            "parentSelectors": [
+                "winterthur"
+            ],
+            "regex": "",
+            "selector": "div div div",
+            "type": "SelectorText"
+        },
+        {
+            "id": "price_raw",
+            "multiple": false,
+            "multipleType": "singleColumn",
+            "parentSelectors": [
+                "winterthur"
+            ],
+            "regex": "",
+            "selector": "span.HgListingRoomsLivingSpacePrice_price_ad2cb",
+            "type": "SelectorText"
+        },
+        {
+            "id": "address_raw",
+            "multiple": false,
+            "multipleType": "singleColumn",
+            "parentSelectors": [
+                "winterthur"
+            ],
+            "regex": "",
+            "selector": "address",
+            "type": "SelectorText"
+        },
+        {
+            "id": "description_raw",
+            "multiple": false,
+            "multipleType": "singleColumn",
+            "parentSelectors": [
+                "winterthur"
+            ],
+            "regex": "",
+            "selector": "p span",
+            "type": "SelectorText"
+        },
+        {
+            "id": "text_raw",
+            "multiple": false,
+            "multipleType": "singleColumn",
+            "parentSelectors": [
+                "winterthur"
+            ],
+            "regex": "",
+            "selector": "p.HgListingDescription_large_4f035",
+            "type": "SelectorText"
+        }
+    ]
+}
